@@ -1,5 +1,5 @@
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+const merge = Object.assign({}, obj1, obj2);
 const isEmptyArray = arr => !arr.length;
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
-console.log( "A" - "B" + "2");
-const value = ( 5 < 7 ) ? "True" : "False" ;
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const removeDuplicates = (arr) => [...new Set(arr)];
+console.log("1 && 2 = "+(1 && 2));
