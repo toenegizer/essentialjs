@@ -1,4 +1,6 @@
+const merge = [...new Set(a.concat(b))];
 const resultingPromises = urls.map((url) => makHttpRequest(url));
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
-const getRandomBoolean = () => Math.random() >= 0.5;
+const merge = Object.assign({}, obj1, obj2);
+const merge = (a, b) => [...a, ...b];
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const isWeekday = (date) => date.getDay() % 6 !== 0;
