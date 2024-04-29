@@ -1,4 +1,3 @@
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-console.log("0 || 1 = "+(0 || 1));
-const currentDate = () => new Date().toLocaleDateString('en-US');
-const flattenedArray = arr => [].concat(...arr);
+const minNumber = arr => Math.min(...arr);
+console.log("1 || 2 = "+(1 || 2));
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
