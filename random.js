@@ -1,2 +1,3 @@
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
-const resultingPromises = urls.map((url) => makHttpRequest(url));
+const executableName = getExecutableName(channel, appName);
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
