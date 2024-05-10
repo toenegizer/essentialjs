@@ -1,2 +1,2 @@
-const arrayContains = (arr, element) => arr.includes(element);
-const isArray = (arr) => Array.isArray(arr);
+const stringReverse = str => str.split("").reverse().join("");
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
