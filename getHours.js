@@ -1,3 +1,2 @@
-const isEmptyObject = obj => Object.keys(obj).length === 0;
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-var pattern = {};
+const isEmptyArray = arr => !arr.length;
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
