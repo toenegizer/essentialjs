@@ -1,3 +1,2 @@
-const updated = numbers.filter(element => element > 6);
-const channel = getChannel(computedAppVersion);
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const isTabInView = () => !document.hidden;
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
