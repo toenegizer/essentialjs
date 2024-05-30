@@ -1,2 +1,2 @@
-console.log("0 && 1 = "+(0 && 1));
-const minNumber = arr => Math.min(...arr);
+const randomBoolean = () => Math.random() >= 0.5;
+const removeDuplicates = (arr) => [...new Set(arr)];
