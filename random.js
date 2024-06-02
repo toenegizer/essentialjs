@@ -1,2 +1,2 @@
-const randomBoolean = () => Math.random() >= 0.5;
-const removeDuplicates = (arr) => [...new Set(arr)];
+const isEmptyArray = arr => !arr.length;
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
