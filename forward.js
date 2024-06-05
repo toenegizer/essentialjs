@@ -1,3 +1,2 @@
-var arr1 = "john".split('');
-const merge = (a, b) => a.concat(b);
-const minNumber = arr => Math.min(...arr);
+console.log(1 +  "2" + "2");
+console.log(+"1" +  "1" + "2");
