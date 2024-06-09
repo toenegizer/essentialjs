@@ -1,1 +1,2 @@
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+console.log(false == '0');
