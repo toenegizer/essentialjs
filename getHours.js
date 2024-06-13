@@ -1,2 +1,3 @@
-const isEmptyArray = arr => !arr.length;
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+console.log( "A" - "B" + 2);
