@@ -1,3 +1,3 @@
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
-console.log( "A" - "B" + 2);
+const appName = getAppName(channel);
+const merge = (a, b) => a.concat(b);
+console.log(1 +  -"1" + "2");
