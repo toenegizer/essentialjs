@@ -1,2 +1,1 @@
-const isEmptyArray = arr => !arr.length;
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
