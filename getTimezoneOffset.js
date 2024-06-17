@@ -1,1 +1,2 @@
-const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
