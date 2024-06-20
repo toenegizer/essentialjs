@@ -1,3 +1,3 @@
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
-const uniqueArr = (arr) => [...new Set(arr)];
-const randomString = () => Math.random().toString(36).slice(2);
+const fullName = name || 'buddy';
+const allResults = await Promise.all(items.map(async (item) => {}));
+const isArray = (arr) => Array.isArray(arr);
