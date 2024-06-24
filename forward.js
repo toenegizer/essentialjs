@@ -1,3 +1,3 @@
-const result = await makeHttpRequest(url);
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
-const goToTop = () => window.scrollTo(0, 0);
+console.log(false === '0');
+const randomString = () => Math.random().toString(36).slice(2);
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
