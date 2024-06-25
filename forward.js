@@ -1,3 +1,3 @@
-console.log(false === '0');
-const randomString = () => Math.random().toString(36).slice(2);
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+const randomBoolean = () => Math.random() >= 0.5;
