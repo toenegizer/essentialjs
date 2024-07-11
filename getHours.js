@@ -1,2 +1,2 @@
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
-const uniqueArray = arr => [...new Set(arr)];
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+var arr1 = "john".split('');
