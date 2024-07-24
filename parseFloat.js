@@ -1,3 +1,2 @@
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
-const appName = getAppName(channel);
-const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+const randomBoolean = () => Math.random() >= 0.5;
