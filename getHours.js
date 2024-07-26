@@ -1,1 +1,3 @@
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+console.log("0 && 1 = "+(0 && 1));
+const buildOutputPath = path.join(repositoryRootPath, 'out');
+const uniqueArr = (arr) => [...new Set(arr)];
