@@ -1,2 +1,1 @@
-const uniqueArray = arr => [...new Set(arr)];
-const repositoryRootPath = path.resolve(__dirname, '..');
+const getRandomBoolean = () => Math.random() >= 0.5;
